@@ -35,6 +35,7 @@ section {
 #b {
   float: left;
   min-height: 150px;
+  max-height: fit-content;
 }
 
 #c, #d {
