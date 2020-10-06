@@ -1,6 +1,6 @@
 section {
   background: seagreen;
-  color: white;
+  color: #000000;
   text-align: center;
   min-width: 480px;
 }
@@ -30,18 +30,44 @@ section {
 
 #a {
   min-height: 75px;
+  background: #91966E;
 }
 
 #b {
-  float: left;
   min-height: 150px;
   max-height: fit-content;
+  background: #DDD8D5;
 }
 
 #c, #d {
   min-height: 125px;
 }
 
+#c {
+background: #9FA9A0;
+}
+
+#d {
+  background: #BCAD90;
+}
+
+#e {
+  background: #FFD8D8;
+}
+
+#f {
+  background: #8999BD;
+}
+
+#g {
+  background: #84636C;
+}
+
+#h {
+  background: #f0f0d8;
+}
+
 #i {
   min-height: 80px;
+  background: #AEC18B
 }
