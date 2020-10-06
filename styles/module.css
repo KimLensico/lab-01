@@ -1,0 +1,46 @@
+section {
+  background: seagreen;
+  color: white;
+  text-align: center;
+  min-width: 480px;
+}
+
+.pairContainer {
+  display: flex;
+  flex-wrap: row wrap;
+}
+
+.pair {
+  flex: 50%;
+}
+
+.quadContainer {
+  min-width: 480px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+}
+
+.quad {
+  min-width: 240px;
+  min-height: 250px;
+}
+
+#a {
+  min-height: 75px;
+}
+
+#b {
+  float: left;
+  min-height: 150px;
+}
+
+#c, #d {
+  min-height: 125px;
+}
+
+#i {
+  min-height: 80px;
+}
