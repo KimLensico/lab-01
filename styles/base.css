@@ -1,4 +1,70 @@
-p {
+div {
   text-transform: lowercase;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
+p {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 0 50% 0;
+}
+
+.a {
+  min-height: 75px;
+  background: #91966E;
+}
+
+.b {
+  min-height: 150px;
+  max-height: fit-content;
+  background: #DDD8D5;  
+}
+
+.pairContainer {
+  flex-direction: column;
+}
+
+.c, .d {
+  min-height: 125px;
+}
+
+.c {
+background: #9FA9A0;
+}
+
+.d {
+  background: #BCAD90;
+}
+
+.quadContainer {
+  flex-direction: row; 
+  height: 250px;
+}
+
+.e {
+  background: #FFD8D8;
+  width: 240px;
+}
+
+.f {
+  background: #8999BD;
+  width: 240px;
+}
+
+.g {
+  background: #84636C;
+  width: 240px;
+}
+
+.h {
+  background: #f0f0d8;
+  width: 240px;
+}
+
+.i {
+  min-height: 80px;
+  background: #AEC18B;
+}

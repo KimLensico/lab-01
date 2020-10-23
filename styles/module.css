@@ -1,48 +1,147 @@
-.quad {
-  min-width: 240px;
-  min-height: 250px;
+@media (min-width:481px) {
+  div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+  }
+
+  .a {
+    width: 100%;
+    height: 100px;
+    background: black;
+  }
+
+  .b {
+    width: 200px;
+    min-height: 600px;
+    float: left;
+    display: static;
+    background: black;
+  }
+
+  .pairContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .c, .d {
+    width: 50%;
+    height: 200px;
+  }
+
+  .c {
+    background: black;
+  }
+
+  .d {
+    background: black;
+  }
+
+  .quadContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .e, .f, .g, .h {
+    max-width: 25%;
+  }
+
+  .e {
+    background: black;
+  }
+
+  .f {
+    background: black;
+  }
+
+  .g {
+    background: black;
+  }
+
+  .h {
+    background: black;
+  }
+
+  .i {
+    max-width: 760px;
+    height: 150px;
+    background: black;
+  }
 }
 
-.a {
-  min-height: 75px;
-  background: #91966E;
-}
+@media (min-width:768px) {
 
-.b {
-  min-height: 150px;
-  max-height: fit-content;
-  background: #DDD8D5;
-}
+  div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
-.c, .d {
-  min-height: 125px;
-}
+  .a {
+    width: 100%;
+    height: 100px;
+    background: #DB90E3;
+  }
 
-.c {
-background: #9FA9A0;
-}
+  .b {
+    width: 200px;
+    min-height: 600px;
+    float: left;
+    display: static;
+    background: #DBC2E9;
+  }
 
-.d {
-  background: #BCAD90;
-}
+  .pairContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
-.e {
-  background: #FFD8D8;
-}
+  .c, .d {
+    width: 50%;
+    height: 200px;
+  }
 
-.f {
-  background: #8999BD;
-}
+  .c {
+    background: #727BDF;
+  }
 
-.g {
-  background: #84636C;
-}
+  .d {
+    background: #2F69BD;
+  }
 
-.h {
-  background: #f0f0d8;
-}
+  .quadContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
-.i {
-  min-height: 80px;
-  background: #AEC18B
+  .e, .f, .g, .h {
+    max-width: 25%;
+  }
+
+  .e {
+    background: #88A5DF;
+  }
+
+  .f {
+    background: #BE98D5;
+  }
+
+  .g {
+    background: #6EA1BC;
+  }
+
+  .h {
+    background: #8DA5FF;
+  }
+
+  .i {
+    max-width: 760px;
+    height: 150px;
+    background: #998DE3
+  }
 }
